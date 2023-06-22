@@ -12,27 +12,32 @@
 </head>
 <body>
     <header>
+        <!-- NAV-BAR -->
         <nav>
-            <div class="container-lg">
-                <div class="row justify-content-between">
-                    <div class="col"><strong>START BOOTSTRAP</strong></div>
-                    <div class="col-3 d-flex justify-content-between">
-                        <a href="">PORTFOLIO</a>
-                        <a href="">ABOUT</a>
-                        <a href="">CONTACT</a>
+            <div class="container container-lg">
+                <div class="d-flex py-4">
+                    <div><strong>START BOOTSTRAP</strong></div>
+                    <div class="ms-auto">
+                        <div class="d-md-none"><i class="fa-solid fa-bars fa-2xl"></i></div>
+                        <div class="d-none d-md-flex">
+                            <a class="text-decoration-none ms-3" href="">PORTFOLIO</a>
+                            <a class="text-decoration-none ms-3" href="">ABOUT</a>
+                            <a class="text-decoration-none ms-3">CONTACT</a>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
         </nav>
-
+        <!-- HERO -->
         <section class="green">
-            <div class="container-md">
+            <div class="container container-md">
                 <div class="row">
                     <div class="col text-center avatar">
-                        <img src="img/avatar.svg" alt="">
-                        <h1>START BOOTSTRAP</h1>
+                            <img src="img/avatar.svg" alt="">
+                            <h1>START BOOTSTRAP</h1>
+                            <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
 
-                        <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                     </div>
                 </div>
             </div>
@@ -41,16 +46,49 @@
 
     <main>
         <section>
-            <div class="container-lg">
+            <div class="container container-lg">
                 <h2 class="text-center">PORTFOLIO</h2>
                 <div class="row">
-                    <div class="col-4"><img src="img/cabin.png" alt=""></div>
-                    <div class="col-4"><img src="img/cake.png" alt=""></div>
-                    <div class="col-4"><img src="img/circus.png" alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img" src="img/cabin.png" alt="">
+                        </div>
+                    </div>
 
-                    <div class="col-4"><img src="img/game.png" alt=""></div>
-                    <div class="col-4"><img src="img/safe.png" alt=""></div>
-                    <div class="col-4"><img src="img/submarine.png" alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img" src="img/cake.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img" src="img/circus.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img" src="img/game.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img" src="img/safe.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img" src="img/submarine.png" alt="">
+                        </div>
+                    </div>
+                    
+
+                    
+                        
+                    
                 </div>
             </div>
         </section>
@@ -95,7 +133,7 @@
     </main>
 
     <footer>
-        
+
     </footer>
 </body>
 </html>
