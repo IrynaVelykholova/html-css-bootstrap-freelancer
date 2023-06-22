@@ -1,0 +1,19 @@
+:root {
+    --nav: rgb(44, 62, 80);
+    --green: rgb(26, 188, 156);
+}
+
+nav {
+    background-color: var(--nav);
+    color: white;
+}
+.green {
+    background-color: var(--green);
+    color: white;
+}
+.avatar img {
+    max-width: 200px;
+}
+.container-lg img {
+    max-width: 100%;
+}
