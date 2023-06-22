@@ -1,6 +1,7 @@
 :root {
     --nav: rgb(44, 62, 80);
     --green: rgb(26, 188, 156);
+    --footer: rgb(58, 84, 109);
 }
 
 nav {
@@ -15,8 +16,48 @@ nav {
     max-width: 200px;
 } 
 
-
 section {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.color-white {
+    color: white;
+}
+.footer-background {
+    background-color: var(--footer);
+    color: white;
+}
+
+.copyright {
+    background-color: var(--nav);
+    color: white;
+}
+
+.send-button {
+    background-color: var(--green);
+}
+.icons {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.my-form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.star-hr {
+    max-width: 15%;
+    width: 90%;
+    opacity: 1;
+}
+
+.text-link {
+    text-decoration: none;
+    color: var(--green);
 }
